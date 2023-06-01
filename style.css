@@ -1,2 +1,179 @@
 @import url(./style.css);
 
+body {
+  font-family: var(--body-font);
+}
+
+.hero {
+}
+
+/* nav bar */
+
+.primary-button {
+  border: 2px solid #e94536 !important;
+  border-radius: 0 !important;
+}
+.primary-button:hover {
+  background-color: #e94536 !important;
+  color: white !important;
+}
+
+.secondary-button {
+  background-color: #e94536 !important;
+  color: white !important;
+}
+.secondary-button:hover {
+  border: 2px solid #e94536 !important;
+  color: black !important;
+  background-color: white !important;
+}
+
+.nav-link:hover {
+  color: #e94536 !important;
+}
+
+/* hero section */
+
+.my-image img {
+}
+
+.hero-btn {
+  border-radius: 0 !important;
+  width: 200px;
+}
+
+/* about */
+
+/* .about h2 {
+  color: #e94536 !important;
+} */
+
+.about-cards-child {
+  /* border: 2px solid #e94536 !important; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0);
+}
+
+/* .about-cards .card-header {
+  background-color: #e94536 !important;
+  color: white !important;
+}
+
+.about-cards div {
+  display: inline-block;
+  margin-right: 5%; */
+
+/* skills */
+
+.skills-img-div {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.skills .card{
+  padding: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0);
+}
+
+.tech-stacks-img {
+  width: 100%;
+  align-items: center;
+}
+
+.tech-stacks-img img {
+  width: 15%;
+  margin-right: 2%;
+  height: 15%;
+}
+
+/* latest project */
+
+.latest-projects-container{
+  width: 100%;
+}
+
+.latest-projects-cards-container{
+  width: 100%;
+}
+
+.latest-projects-cards{
+  width: 28%;
+  height: 30vh;
+  margin-right:7%;
+  /* text-align: center; */
+}
+
+.latest-projects-cards a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none !important;
+  align-items: end;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+}
+
+.project1 a{
+  background: #fff url('./assets/random-quote-generator.png') no-repeat center center/cover !important;
+  border-radius: 12px;
+}
+
+.project2{
+  background: #fff url('./assets/todoteller.png') no-repeat center center/cover !important;
+  transform: translate(0, 40%);
+  border-radius: 12px;
+}
+
+.project3{
+  transform: translate(0, 80%);
+}
+
+.project3 a{
+  background: #fff url('./assets/shadowdog.png') no-repeat center center/cover !important;
+  border-radius: 12px;
+}
+
+.project-number{
+  width: 20%;
+  height: 28%;
+  background-color: #1F1D1E;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  font-size: 38px;
+  position: absolute;
+  transform: translate(450%, 300%);
+}
+
+/* latest blogs */
+
+/* .latest-blogs-cards-container{
+  padding: 3% 5%;
+  justify-content: space-between;
+} */
+
+.blogs-img{
+  height: 52%;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.latest-blogs-cards{
+  border: 2px solid #d2d2d2 !important; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0);
+}
+
+/* nav bar */
+
+
+.social-media{
+  align-items: center !important;
+}
+
+.social-media a{
+  /* color: #1F1D1E; */
+  color: #FFF;
+  font-size: 5rem;
+  padding-right: 10%;
+}

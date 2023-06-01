@@ -1,17 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&family=Open+Sans:ital,wght@0,500;0,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&family=Lobster&family=Open+Sans:ital,wght@0,500;0,700;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--body-font);
 }
 
-:root{
-    
+:root {
+  --body-font: "Inter", sans-serif;
+  --fancy-font: "Open Sans", sans-serif;
+  --cursive-font:  'Lobster', cursive;
 }
 
-flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-a{
-    text-decoration: none;
+.grid {
+  display: grid;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inline-block {
+}
+
+a {
+  text-decoration: none;
 }

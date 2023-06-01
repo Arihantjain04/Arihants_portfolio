@@ -1,17 +1,666 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arihant Jain/title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="utilities.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arihant Jain</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utilities.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <div class="container">
+      
+      <!-- HERO SECTION -->
+
+      <div class="hero mt-4" style="background-color: #f4eff1">
+        <!-- NAVBAR -->
+
+        <nav
+          class="navbar navbar-expand-lg bg-body-tertiary"
+          style="background-color: #f4eff1 !important"
+        >
+          <div class="container-fluid">
+            <a
+              class="navbar-brand ms-lg-5"
+              style="
+                user-select: none;
+                font-size: 2rem;
+                font-weight: 500;
+                color: #e94536;
+              "
+              >ARIHANT
+              <!-- <i class="fa-sharp fa-solid fa-circle" tyle="font-size: 0.8rem !important; color: #e94536"></i> -->
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-4 me-4" href="https://github.com/Arihantjain04?tab=repositories">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active nav-buttons" href="https://www.linkedin.com/in/arihant-jain-6186b9237/recent-activity/all/">Blogs</a>
+                </li>
+              </ul>
+              <button
+                class="btn btn ms-auto me-lg-5 primary-button"
+                type="submit"
+              >
+                Contact Me
+              </button>
+            </div>
+          </div>
+        </nav>
+
+        <!-- hero section -->
+        <div
+          class="row flex-lg-row-reverse align-items-center g-5 py-5 ms-5 me-auto my-image"
+        >
+          <div class="col-10 col-sm-8 col-lg-5">
+            <img
+              src="./assets/sundarpichai.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-7">
+            <h1
+              class="display-5 fw-bold text-body-emphasis lh-2 mb-3"
+              style="font-size: 4rem; font-weight: 500 !important"
+            >
+              Hy! I Am <br />
+              <span style="font-size: 5rem; font-weight: 400"
+                >Arihant Jain</span
+              >
+            </h1>
+            <p class="lead" style="line-height: 40px">
+              Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the world's most popular front-end open source toolkit,
+              featuring Sass variables and mixins, responsive grid system,
+              extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
+              <button
+                type="button"
+                class="btn btn btn-lg me-md-3 secondary-button hero-btn"
+              >
+                My Resume
+              </button>
+              <a
+              href="https://github.com/Arihantjain04?tab=repositories"
+                type="button"
+                class="btn btn-light btn-lg px-4 me-md-3 primary-button"
+                style="width: 200px !important"
+              >
+                Projects
+                <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT SECTION -->
+
+      <div class="about">
+        <h2 class="ms-2 mt-4">About</h2>
+        <hr style="border: 1px solid #000000" />
+        <p style="line-height: 30px">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+          asperiores quasi exercitationem, adipisci minima eius eum aut
+          voluptate excepturi sunt sequi iste repellat voluptas ducimus! Vero,
+          veritatis. Laborum impedit voluptate repudiandae! Reiciendis magnam
+          ullam quas! Doloremque, facere earum. Asperiores, exercitationem culpa
+          animi officiis porro possimus corporis nulla eius impedit deserunt.
+        </p>
+
+        <div class="about-cards flex mt-4">
+          <!-- <div class="card border-secondary mb-3 ms-5 me-4" style="max-width: 20rem;"> -->
+          <div
+            class="card ms-5 mb-3 me-4 about-cards-child"
+            style="
+              max-width: 20rem;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            "
+          >
+            <div class="card-header">Education</div>
+            <div style="display: flex; margin-top: 10px">
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 18%;
+                  margin: 0 2.5%;
+                "
+              >
+                <img src="./assets/itibhulogo.jpg" alt="" style="width: 100%" />
+              </div>
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 78%;
+                  margin-right: 2%;
+                "
+              >
+                <h5>
+                  Indian Institute of Technology (Banaras Hindu University),
+                  Varanasi
+                </h5>
+                <p>Bachelor of Technology-BTech, CGPA8.13</p>
+              </div>
+            </div>
+            <div style="display: flex; margin-top: 10px">
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 18%;
+                  margin: 0 3%;
+                "
+              >
+                <img
+                  src="./assets/ASHOKAHALLSCHOOLLOGO.png"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 78%;
+                  margin-right: 2%;
+                "
+              >
+                <h5>Ashoka hall senior secondar school jabalpur</h5>
+                <p>Primary, Secondary & Higher Education X-90.8%, XII-91.2%</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="card mb-3 me-4 about-cards-child"
+            style="
+              max-width: 20rem;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            "
+          >
+            <div class="card-header">Recent Experiences</div>
+            <div style="display: flex; margin-top: 10px">
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 18%;
+                  margin: 0 3%;
+                "
+              >
+                <img src="./assets/scslogo.png" alt="" style="width: 100%" />
+              </div>
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 78%;
+                  margin-right: 2%;
+                "
+              >
+                <h5>Student guide</h5>
+                <p>Student Counselling Services, IIT(BHU)</p>
+              </div>
+            </div>
+            <div style="display: flex; margin-top: 10px">
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 18%;
+                  margin: 0 3%;
+                "
+              >
+                <img
+                  src="./assets/ASHOKAHALLSCHOOLLOGO.png"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 78%;
+                  margin-right: 2%;
+                "
+              >
+                <h5>Marketing Coordinator</h5>
+                <p>Technex, IIT (BHU) Varanasi</p>
+              </div>
+            </div>
+            <div style="display: flex; margin-top: 10px">
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 18%;
+                  margin: 0 3%;
+                "
+              >
+                <img
+                  src="./assets/sattvikohamlogo.png"
+                  alt=""
+                  style="width: 100%; border-radius: 50%"
+                />
+              </div>
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 78%;
+                  margin-right: 2%;
+                "
+              >
+                <h5>Logistics & Operations</h5>
+                <p>Team Sattvik</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="card mb-3 me-4 about-cards-child"
+            style="
+              max-width: 20rem;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            "
+          >
+            <div class="card-header">Certificates</div>
+            <div style="display: flex; margin-top: 10px">
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 18%;
+                  margin: 0 3%;
+                "
+              >
+                <img src="./assets/googlelogo.png" alt="" style="width: 80%" />
+              </div>
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 78%;
+                  margin-right: 2%;
+                "
+              >
+                <h5>Foundations of User Experience (UX) Design</h5>
+                <p style="line-height: 30px">
+                  Google <br /><a
+                    type="button"
+                    class="btn btn"
+                    href="https://drive.google.com/file/d/1Ia7dXXAsfoaSbyxknWRpolOkAV7RKlJN/view"
+                    style="
+                      border: 2px solid #666666;
+                      border-radius: 25px;
+                      color: #666666;
+                      font-size: 0.8rem;
+                    "
+                    >Certificate
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </p>
+              </div>
+            </div>
+            <div style="display: flex; margin-top: 10px">
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 18%;
+                  margin: 0 3%;
+                "
+              >
+                <img
+                  src="./assets/universityofvirginialogo.png"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+              <div
+                style="
+                  display: inline-block !important;
+                  width: 78%;
+                  margin-right: 2%;
+                "
+              >
+              <h5>Design Thinking for Innovation</h5>
+                <p style="line-height: 30px">
+                  University of Virginia
+                  <a
+                    type="button"
+                    class="btn btn"
+                    href="https://drive.google.com/file/d/14tBcKcywVsj1nvWa4HtR7KOS3whTa4EB/view"
+                    style="
+                      border: 2px solid #666666;
+                      border-radius: 25px;
+                      color: #666666;
+                      font-size: 0.8rem;
+                    "
+                    >Certificate
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SKILLS SECTION -->
+
+      <div class="skills flex-column">
+        <h2 class="ms-2 mt-4">Skills</h2>
+        <hr style="border: 1px solid #000000" />
+
+        <div
+          class="grid my-3"
+          style="
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+            padding-left: 6%;
+            row-gap: 10%;
+          "
+        >
+          <div class="card flex-column" style="width: 18rem;border: none !important">
+            <div class="card-body">
+              <div
+                class="skills-img-div"
+                style="
+                  background: #fff url('./assets/frontendlogo.png') no-repeat
+                    center center/cover;
+                "
+              >
+                <!-- <img class="skills-img" src="./assets/frontendlogo.png" alt=""> -->
+              </div>
+              <h5 class="card-title">Front-End Developer</h5>
+              <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+              <p class="card-text">
+                Some quick example text to build on the card title and make
+              </p>
+              <div class="tech-stacks-img flex">
+                <img src="./assets/htmlogo.png" alt="" />
+                <img src="./assets/csslogo.webp" alt="" />
+                <img src="./assets/jslogo.png" alt="" />
+                <img src="./assets/bootstrap-logo.svg" alt="" />
+                <img src="./assets/tailwindlogo.png" alt="" />
+                <img src="./assets/reactlogo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="card flex-column" style="width: 18rem;border: none !important"">
+            <div class="card-body">
+              <div
+                class="skills-img-div"
+                style="
+                  background: #fff url('./assets/androidlogo.png') no-repeat
+                    center center/cover;
+                "
+              >
+                <!-- <img class="skills-img" src="./assets/androidlogo.png" alt=""> -->
+              </div>
+              <h5 class="card-title">App Developer</h5>
+              <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+              <p class="card-text">
+                Some quick example text to build on the card title and make
+              </p>
+              <div class="tech-stacks-img flex">
+                <img src="./assets/javalogo.png" alt="" />
+                <img src="./assets/androidstudio.png" alt="" />
+                <img src="./assets/flutterlogo.png" alt="" />
+                <img src="./assets/dartlogo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="card flex-column" style="width: 18rem;border: none !important"">
+            <div class="card-body">
+              <div
+                class="skills-img-div"
+                style="
+                  background: #fff url('./assets/uiuxlogo1.png') no-repeat
+                    center center/cover;
+                "
+              >
+                <!-- <img class="skills-img" src="./assets/uiuxlogo.png" alt=""> -->
+              </div>
+              <h5 class="card-title">UX / UI Designer</h5>
+              <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+              <p class="card-text">
+                Some quick example text to build on the card title and make
+              </p>
+              <div class="tech-stacks-img flex">
+                <img src="./assets/figmalogo.png" alt="" />
+                <img src="./assets/xdlogo.jpeg" alt="" />
+                <img src="./assets/uxuiproblemsolving.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="card flex-column" style="width: 18rem;border: none !important"">
+            <div class="card-body">
+              <div
+                class="skills-img-div"
+                style="
+                  background: #fff url('./assets/gamelogo.png') no-repeat center
+                    center/cover;
+                "
+              >
+                <!-- <img class="skills-img" src="./assets/gamelogo.png" alt=""> -->
+              </div>
+              <h5 class="card-title">Web Game Dev</h5>
+              <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+              <p class="card-text">
+                Some quick example text to build on the card title and make
+              </p>
+              <div class="tech-stacks-img flex">
+                <img src="./assets/jslogo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="card flex-column" style="width: 18rem;border: none !important"">
+            <div class="card-body">
+              <div
+                class="skills-img-div"
+                style="
+                  background: #fff url('./assets/dsalogo2.png') no-repeat center
+                    center/cover;
+                "
+              >
+                <!-- <img class="skills-img" src="./assets/dsalogo.png" alt=""> -->
+              </div>
+              <h5 class="card-title">Data Structures & Algorithms</h5>
+              <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+              <p class="card-text">
+                Some quick example text to build on the card title and make
+              </p>
+              <div class="tech-stacks-img flex">
+                <img src="./assets/javalogo.png" alt="" />
+                <img src="./assets/clogo.png" alt="" />
+                <img src="./assets/pythonlogo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="card flex-column" style="width: 18rem;border: none !important"">
+            <div class="card-body">
+              <div
+                class="skills-img-div"
+                style="
+                  background: #fff url('./assets/contentwriterlogo.png')
+                    no-repeat center center/cover;
+                "
+              >
+                <!-- <img class="skills-img" src="./assets/contentwriterlogo.png" alt=""> -->
+              </div>
+              <h5 class="card-title">Content Designing</h5>
+              <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+              <p class="card-text">
+                Some quick example text to build on the card title and make
+              </p>
+              <div class="tech-stacks-img flex">
+                <img src="./assets/canvalogo.png" alt="" />
+                <img src="./assets/notionlogo.png" alt="" />
+                <img src="./assets/powerpointlogo.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- latest projects section -->
+      
+      <div class="latest-projects-container">
+
+        <h2 class="ms-2 my-4">Latest Projects</h2>
+        <hr style="border: 1px solid #000000" />
+
+        <div class="latest-projects-cards-container flex my-5">
+
+          <div class="latest-projects-cards project1">
+            <a class="project-img" href="#">
+              <div class="project-number">1</div>
+            </a>
+            <h5 class="my-2" style="color: #1F1D1E;font-weight: 300;">Random Quote Generator</h5>
+          </div>
+
+          <div class="latest-projects-cards project2">
+            <a class="project-img" href="https://to-do-teller.netlify.app/">
+              <div class="project-number">2</div>
+            </a>
+            <h5 class="my-2" style="color: #1F1D1E;font-weight: 300;">To Do List Maker</h5>
+
+          </div>
+
+          <div class="latest-projects-cards project3">
+            <a class="project-img" href="https://character-animations.netlify.app/">
+              <div class="project-number">3</div>
+            </a>
+            <h5 class="my-2" style="color: #1F1D1E;font-weight: 300;">Shadow Dog Animations</h5>
+
+          </div>
+
+        </div>
+        </div>
+        
+
+      <!-- latest blogs -->
+      
+      <div class="latest-blogs flex-column" style="margin-top: 20%;">
+        <h2 class="ms-2 mt-4">Latest Blogs</h2>
+        <hr style="border: 1px solid #000000" />
+
+        <div
+          class="grid my-3"
+          style="
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+            padding-left: 4%;
+            row-gap: 8%;
+          "
+        >
+        <div class="card latest-blogs-cards" style="width: 20rem;">
+          <img src="./assets/githubBlogs.jpeg" class="card-img-top blogs-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Git & Github for Devs</h5>
+            <p class="card-text">I recently learned about an amazing tool "GIT/GITHUB" which is a must if you are a developer or a open source contributer. 🪧Git is a version control system that allows developers to track changes in their code and ...</p>
+            <a href="https://www.linkedin.com/embed/feed/update/urn:li:share:7041319221015777281" class="btn btn-secondary">Read more ...</a>
+          </div>
+        </div>
+
+        <div class="card latest-blogs-cards" style="width: 20rem;">
+          <img src="./assets/cloudblogs.jpeg" class="card-img-top blogs-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Paradigm of Cloud</h5>
+            <p class="card-text">"The core paradigm of technology is profoundly changing"
+
+              Today I had the pleasure of attending a fascinating session on cloud computing by the team of STANDERED CHARTERED, and I must say that I came to ...</p>
+            <a href="https://www.linkedin.com/embed/feed/update/urn:li:share:7043967879146352640" class="btn btn-secondary">Read more ...</a>
+          </div>
+        </div>
+
+        <div class="card latest-blogs-cards" style="width: 20rem;">
+          <img src="./assets/ishanblogs.jpeg" class="card-img-top blogs-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The skill for success</h5>
+            <p class="card-text">today I came to know about a very important skill for a successful carrier that is skill of "PURSUASIVENESS". From scamsters to big visionaries and leaders , they are not good at any practical skill ie not a best ...</p>
+            <a href="https://www.linkedin.com/embed/feed/update/urn:li:share:7041864905699864576" class="btn btn-secondary">Read more ...</a>
+          </div>
+        </div>
+
+        
+
+         
+            </div>
+          </div>
+
+        
+
+</div>
+
+
+      <!-- footer -->
+
+      <div class="footer-container" style="width: 100vw; background-color: #e94536;">
+      
+        <footer class="flex py-5 mt-5 border-top" style="background-color: #e94536 !important;width: 100%;justify-content: space-between;padding:0 5%;;align-items: center !important;">
+          <div class="">
+            <h1 style="font-size: 6rem;color: white;font-family: var(--cursive-font);">LET'S <br> CHAT</h1>
+          </div>
+      
+          <div class="social-media">
+            <!-- <h5>Section</h5> -->
+
+              <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-square-github"></i></a>
+
+          </div>
+
+          <a href="/" style="font-size: 4rem;color: #FFF;"><i class="fa-solid fa-arrow-up-long"></i></a>
+
+        </footer>
+
+      </div>
     
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+        </div>
+
+    <script
+      src="https://kit.fontawesome.com/129ed255f4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
