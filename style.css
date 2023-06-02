@@ -4,9 +4,6 @@ body {
   font-family: var(--body-font);
 }
 
-.hero {
-}
-
 /* nav bar */
 
 .primary-button {
@@ -34,8 +31,19 @@ body {
 
 /* hero section */
 
-.my-image img {
+.my-image{
+  display: flex;
+  justify-content: center;
+  height: 25vw;
+  width: 25vw;
+  background-color: white !important;
+  border-radius: 50%;
+  align-items: center;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 2px 6px 10px 0 rgba(0, 0, 0, 0);
+
+
 }
+
 
 .hero-btn {
   border-radius: 0 !important;
