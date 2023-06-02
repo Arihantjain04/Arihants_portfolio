@@ -13,6 +13,9 @@
   --body-font: "Inter", sans-serif;
   --fancy-font: "Open Sans", sans-serif;
   --cursive-font:  'Lobster', cursive;
+  --primary-color: #e94536;
+  --secondary-color: white;
+  --hero-bg-color: #f4eff1;
 }
 
 .flex {
@@ -29,9 +32,14 @@
   justify-content: center;
 }
 
-.inline-block {
+hr{
+  border: 1px solid #000000 !important;
 }
 
 a {
   text-decoration: none;
+}
+
+.w100{
+  width: 100% !important;
 }
