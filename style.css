@@ -34,16 +34,18 @@ body {
 .my-image{
   display: flex;
   justify-content: center;
-  height: 25vw;
-  width: 25vw;
+  height: 30vw;
+  width: 20vw;
   background-color: white !important;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   align-items: center;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 2px 6px 10px 0 rgba(0, 0, 0, 0);
-
-
+  background: #FFF url(./assets/mewithoutbg.png) no-repeat center center/cover;
 }
 
+.my-image img{
+  /* height: 100%; */
+}
 
 .hero-btn {
   border-radius: 0 !important;
