@@ -62,6 +62,13 @@ body {
   display: inline-block;
   margin-right: 5%; */
 
+  /* hero section */
+
+.welcome-heading{
+  font-weight: 500;
+  color: #e94536;
+}
+
 /* skills */
 
 .skills-img-div {
@@ -174,6 +181,97 @@ body {
 .social-media a{
   /* color: #1F1D1E; */
   color: #FFF;
-  font-size: 5rem;
+  font-size: 4rem;
   padding-right: 10%;
+}
+
+
+
+
+/* contact me section */
+
+.contact-container{
+  height: 100vh;
+  justify-content: center;
+}
+
+.contact-form{
+  height: 80%;
+  display: block;
+  margin-top: 5%;
+  width: 55%;
+  justify-content: center;
+  background-color: #e94536;
+  padding: 5%;
+  color: white;
+  border-radius: 15px;
+}
+
+.contact-form h1{
+  font-size: 3rem;
+}
+
+.contact-container button{
+  margin-left: 87%;
+}
+
+
+/* resposiveness */
+
+@media screen and (max-width: 600px) {
+
+  .hero-buttons{
+    padding-left: 25% !important;
+  }
+  
+  .about-cards{
+    flex-direction: column !important;
+    margin-left: 0 !important;
+  }
+  .about-cards-child{
+    margin-left: 20% !important;
+  }
+
+  .skills-cards{
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 18%;
+  }
+
+  .skills-cards .card{
+    margin-bottom: 5%;
+  }
+
+  .latest-projects-cards-container{
+    flex-direction: column !important;
+  }
+
+  .latest-projects-cards{
+    margin-left: 26%;
+    width: 50%;
+  }
+
+  .latest-blogs{
+    margin-top: 35% !important;
+  }
+
+  .latest-blogs-cards-container{
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 15%;
+  }
+
+  .latest-blogs-cards{
+    margin-bottom: 5%;
+  }
+
+  .social-media a{
+    font-size: 3rem !important;
+  }
+
+  .footer-container footer h1{
+    font-size: 3rem !important;
+  }
+
+
 }
