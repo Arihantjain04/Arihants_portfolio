@@ -2,6 +2,15 @@
 @import url(./contact.html);
 
 @media screen and (max-width: 1000px) {
+
+    .website{
+        display: none;
+    }
+
+    .warning{
+        display: block;
+    }
+
     .hero-buttons {
       padding-left: 25% !important;
     }
@@ -14,12 +23,6 @@
     .about-cards-child {
 
     }
-  
-    /* .skills-cards {
-      display: flex !important;
-      flex-direction: column !important;
-      margin-left: 18%; */
-    /* } */
   
     .skills-cards .card {
       margin-bottom: 5%;

@@ -302,11 +302,6 @@ body {
   margin-left: 87%;
 }
 
-/* resposiveness */
-
-
-
-@media screen and (max-width: 1000px) {
-
-
+.warning{
+  display: none;
 }
