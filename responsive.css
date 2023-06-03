@@ -1,0 +1,88 @@
+@import url(./index.html);
+@import url(./contact.html);
+
+@media screen and (max-width: 1000px) {
+    .hero-buttons {
+      padding-left: 25% !important;
+    }
+  
+    .about-cards {
+      flex-direction: column !important;
+      margin-left: 0 !important;
+      align-items: center;
+    }
+    .about-cards-child {
+
+    }
+  
+    /* .skills-cards {
+      display: flex !important;
+      flex-direction: column !important;
+      margin-left: 18%; */
+    /* } */
+  
+    .skills-cards .card {
+      margin-bottom: 5%;
+    }
+  
+    .latest-projects-cards-container {
+      flex-direction: column !important;
+      /* justify-content: center; */
+      align-items: center;
+    }
+  
+    .latest-projects-cards {
+      max-width: 25rem !important;
+    }
+  
+    .latest-blogs {
+      margin-top: 50% !important;
+    }
+  
+    .latest-blogs-cards-container {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center;
+    }
+  
+    .latest-blogs-cards {
+      margin-bottom: 5%;
+      width: 28rem !important;
+    }
+  
+    .social-media a {
+      font-size: 3rem !important;
+    }
+  
+    .footer-container footer h1 {
+      font-size: 3rem !important;
+    }
+  
+    .my-image-container{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .skills-cards{
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+      padding-left: 0% !important;
+      row-gap: 10%;
+    }
+  
+    .skills-cards .card{
+      width: 15rem !important;
+    }
+  
+    .contact-form{
+      height: 55%;
+      width: 80%;
+      margin-top: 25%;
+    }
+  
+    .contact-form h1{
+      font-size: 1.5rem !important;
+    }
+  
+  }
