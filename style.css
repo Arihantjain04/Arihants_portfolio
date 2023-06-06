@@ -104,7 +104,9 @@ body {
 }
 
 .about-cards {
-  padding: 0 5%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
 }
 
 .about-cards .card{
@@ -247,10 +249,13 @@ body {
 
 /* latest blogs */
 
-/* .latest-blogs-cards-container{
-  padding: 3% 5%;
+.latest-blogs{
+  margin-top: 500%;
+}
+
+.latest-blogs-cards-container{
   justify-content: space-between;
-} */
+}
 
 .blogs-img {
   height: 52%;
@@ -258,6 +263,7 @@ body {
 }
 
 .latest-blogs-cards {
+  width: 30% !important;
   border: 2px solid #d2d2d2 !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0);
 }

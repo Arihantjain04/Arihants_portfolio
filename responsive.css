@@ -1,15 +1,36 @@
 @import url(./index.html);
 @import url(./contact.html);
 
+
+@media screen and (min-width: 1400px) {
+
+  .about-cards{
+    padding: 5% !important;
+  }
+
+  .latest-projects-container{
+    margin: 0 5% !important;
+  }
+
+  .latest-blogs{
+    /* margin-top: 55% !important; */
+  }
+
+  .latest-blogs-cards{
+    
+  }
+  
+}
+
 @media screen and (max-width: 1000px) {
 
     .website{
-        display: none;
+        /* display: none; */
     }
 
-    .warning{
+    /* .warning{
         display: block;
-    }
+    } */
 
     .hero-buttons {
       padding-left: 25% !important;
@@ -17,7 +38,7 @@
   
     .about-cards {
       flex-direction: column !important;
-      margin-left: 0 !important;
+      /* margin-left: 0 !important; */
       align-items: center;
     }
     .about-cards-child {
