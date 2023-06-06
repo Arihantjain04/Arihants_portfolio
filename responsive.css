@@ -8,10 +8,6 @@
     padding: 5% !important;
   }
 
-  .latest-projects-container{
-
-  }
-
   .latest-blogs{
     /* margin-top: 55% !important; */
   }
@@ -80,6 +76,11 @@
     .about-cards-child {
 
     }
+
+    .latest-projects-container{
+      margin: 10vh 0 32vh 0;
+    }
+  
 
     .latest-projects-cards-container {
       flex-direction: column !important;
@@ -175,13 +176,14 @@
     }
   
     .contact-form{
-      height: 55%;
-      width: 80%;
+      height: 50vh !important;
+      width: 80vw !important;
       margin-top: 25%;
+      position: fixed;
+      top: 20vh;
     }
   
     .contact-form h1{
       font-size: 1.5rem !important;
     }
-  
   }
