@@ -11,6 +11,10 @@ body {
   background-color: var(--hero-bg-color) !important;
 }
 
+.hero-section-text{
+  width: 45vw;
+}
+
 .hero nav {
   background-color: var(--hero-bg-color) !important;
 }
