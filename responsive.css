@@ -81,14 +81,14 @@
 
     }
 
-    .latest-projects-container{
+/*   .latest-projects-container{
       margin: 10vh 0 32vh 0;
     }
   
 
     .latest-projects-cards-container {
       flex-direction: column !important;
-      /* justify-content: center; */
+      justify-content: center;
       align-items: center;
     }
   
@@ -99,10 +99,10 @@
     .project-number{
       height: 20% !important;
       transform: translate(450%, 420%) !important;
-    }
+    } */
   
     .latest-blogs {
-      margin-top: 50% !important;
+      /* margin-top: 50% !important; */
     }
   
     .latest-blogs-cards-container {
@@ -180,9 +180,9 @@
     }
   
     .contact-form{
-      height: 50vh !important;
+      height: auto !important;
       width: 80vw !important;
-      margin-top: 25%;
+      margin-top: 5% !important;
       position: fixed;
       top: 20vh;
     }

@@ -193,7 +193,7 @@ body {
 }
 
 /* latest project */
-
+/* 
 .latest-projects-container {
 }
 
@@ -206,7 +206,7 @@ body {
   height: 30vh;
   margin-right: 7%;
   /* text-align: center; */
-}
+/* } */
 
 .latest-projects-cards a {
   display: block;
@@ -249,12 +249,12 @@ body {
   font-size: 38px;
   position: absolute;
   transform: translate(450%, 300%);
-}
+} */
 
 /* latest blogs */
 
 .latest-blogs{
-  margin-top: 500%;
+
 }
 
 .latest-blogs-cards-container{
@@ -293,7 +293,8 @@ body {
 }
 
 .contact-form {
-  height: 80%;
+  height: auto !important;
+  max-height: 80% !important;
   display: block;
   margin-top: 5%;
   width: 55%;
