@@ -4,6 +4,10 @@
 
 @media screen and (min-width: 1400px) {
 
+  *{
+    overflow-x: hidden;
+  }
+
   .about-cards{
     padding: 5% !important;
   }
@@ -81,12 +85,12 @@
 
     }
 
-/*   .latest-projects-container{
-      margin: 10vh 0 32vh 0;
+.latest-projects-container{
+      margin: 11vh 0 0 0;
     }
   
 
-    .latest-projects-cards-container {
+/*    .latest-projects-cards-container {
       flex-direction: column !important;
       justify-content: center;
       align-items: center;

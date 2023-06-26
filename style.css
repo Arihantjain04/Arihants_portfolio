@@ -28,6 +28,7 @@ body {
   color: var(--primary-color) !important;
 }
 
+
 .active-button {
   color: var(--primary-color) !important;
 }
@@ -285,6 +286,10 @@ body {
   padding-right: 10%;
 }
 
+.warning{
+  display: none;
+}
+
 /* contact me section */
 
 .contact-container {
@@ -310,9 +315,61 @@ body {
 }
 
 .contact-container button {
-  margin-left: 87%;
+  cursor: pointer;
 }
 
-.warning{
+.displayYes{
+  display: block !important;
+}
+
+.snackbar{
   display: none;
+  background-color: rgb(245, 239, 239);
+  padding: 20px 60px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-left: solid 6px #3ab164;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+}
+
+.message{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+.check{
+  display: flex;
+  width: 35px;
+  height: 35px;
+  background: #3ab164;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-color);
+  font: 22px;
+  border-radius: 50%;
+}
+
+.title{
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.close{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close:hover{
+  color: red;
 }

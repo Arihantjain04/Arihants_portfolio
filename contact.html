@@ -16,7 +16,7 @@
   </head>
   <body>
 
-    <div class="container contact-container flex">
+    <div class="container contact-container flex" style="caret-color: var(--primary-color) !important;">
 
         <div class="contact-form">
 
@@ -28,19 +28,37 @@
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jon Snow">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="exampleFormControlInput2" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>               
             </div>
-            <a type="button" class="btn btn-light">Send</a>
+            <button onclick="showSnackbar()" class="btn btn-light">Send</button>
 
         </div>
 
-    </div>
+        <div class="snackbar">
+          <div class="content">
+            <span class="check"><i class="fa-solid fa-check"></i></span>
 
+            <div class="message">
+              <span class="title">Success!</span>
+              <span class="text">Your message has been sent.</span>
+            </div>
+
+            <i class="fa-solid fa-xmark close"></i>
+            <!-- <div class="progress"> -->
+
+            </div>
+          </div>
+        </div>
+
+    </div> 
+
+
+    <script src="script.js"></script>
     <script
       src="https://kit.fontawesome.com/129ed255f4.js"
       crossorigin="anonymous"
