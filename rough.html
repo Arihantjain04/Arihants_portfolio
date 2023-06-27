@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<div style="width: 20vw !important; overflow-wrap: break-word;">
+  <p id="type" style="display: inline; border-right: 2px solid black; animation: blink 1s infinite; overflow: wrap;"></p>
+</div>
+
+  <script type="text/javascript">
+    var i = 0
+    var txt = "Welcome to my digital space! Driven by curiosity and a hunger for knowledge, I'm Passionate about turning ideas into reality through clean and efficient code and Constantly learning and evolving to stay ahead in the ever-changing tech landscape."
+    var speed = 5
+    function type(){
+      document.getElementById("type").innerText += txt.charAt(i)
+      i++
+      setTimeout(type, speed)
+    }
+    type();
+  </script>
+</body>
+</html>

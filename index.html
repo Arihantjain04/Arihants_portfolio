@@ -69,30 +69,37 @@
 
         <!-- hero section -->
         <div
-          class="hero-section row flex-lg-row-reverse align-items-center g-5 py-5 ms-me-auto"
+          class="hero-section hero-div row flex-lg-row-reverse align-items-center g-5 py-5 ms-me-auto"
         >
-          <div class="col-10 col-sm-8 col-lg-5 my-image-container">
+          <div class="col-10 col-sm-8 col-lg-5 my-image-container" style="z-index: 100;">
             <div class="my-image"></div>
           </div>
-          <div class="hero-section-text" style="width: 45vw;">
-            <h1 class="hy">
-              Hy! I Am <br/>
-              <span class="arihant-jain">Arihant Jain</span>
-            </h1>
-            <p class="lead">
+          <div class="hero-section-text" style="width: 45vw; height: 480px;">
+            <div class="hero-txt" style="height: 375px;">
+              <h1 class="hy">
+                Hy! I Am <br/>
+                <span class="arihant-jain">Arihant Jain</span>
+              </h1>
+              <!-- <p class="lead hero-paragraph">
+  
+                <span class="welcome-heading animated">
+                  Welcome to my digital space!</span> Driven by curiosity and a hunger for knowledge, I'm Passionate about turning ideas into reality through clean and efficient code and Constantly learning and evolving to stay ahead in the ever-changing tech landscape.
+                </span>
+              </p> -->
+              <p id="type" class="lead hero-paragraph animated"><span class="welcome-heading">Welcome to my digital space! </span></p>
 
-              <span class="welcome-heading">Welcome to my digital space!</span> Driven by curiosity and a hunger for knowledge, I'm Passionate about turning ideas into reality through clean and efficient code and Constantly learning and evolving to stay ahead in the ever-changing tech landscape.
-            </p>
+              
+            </div>
             <div class="hero-buttons d-grid gap-2 d-md-flex justify-content-md-start mt-5">
               <a
                 type="button"
                 class="btn btn btn-lg me-md-3 secondary-button hero-btn"
-                href="https://drive.google.com/file/d/1039MnrRpWDotZPzcsMjjp8voVP82mMyL/view?usp=sharing"
+                href="https://drive.google.com/file/d/1039MnrRpWDotZPzcsMjjp8voVP82mMyL/view?usp=sharingl"
               >
                 My Resume
               </a>
               <a
-              href="https://github.com/Arihantjain04?tab=repositories"
+                href="https://github.com/Arihantjain04?tab=repositories"
                 type="button"
                 class="btn btn-light btn-lg px-4 me-md-3 primary-button hero-btn">Projects <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
               </a>
@@ -562,7 +569,7 @@
 
           </div>
 
-          <a href="/" style="font-size: 3rem;color: #FFF;"><i class="fa-solid fa-arrow-up-long"></i></a>
+          <a id="scrolltop" href="/" style="font-size: 3rem;color: #FFF;"><i class="fa-solid fa-arrow-up-long" style="cursor: pointer;"></i></a>
 
         </footer>
 
@@ -576,6 +583,7 @@
 
       </div>
 
+      <script src="script.js"></script>
     <script
       src="https://kit.fontawesome.com/129ed255f4.js"
       crossorigin="anonymous"

@@ -41,6 +41,7 @@
 
     .hero-section-text{
       width: 100% !important;
+      height: auto !important;
     }
 
     .hero-section h1{

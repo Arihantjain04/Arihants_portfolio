@@ -63,6 +63,19 @@ body {
 
 /* hero section */
 
+  .animated{
+    display: inline; 
+    border-right: 2.5px solid var(--primary-color); 
+    animation: blink 1s infinite; 
+    overflow: wrap;
+  }
+
+  @keyframes blink{
+    50%{
+      border-right: none;
+    }
+  }
+
 .hy {
   font-size: 4rem !important;
   font-weight: 500 !important;
@@ -137,11 +150,6 @@ body {
   margin-right: 2% !important;
 }
 
-/* .about h2 {
-  color: var(--primary-color)
- !important;
-} */
-
 .about-cards-child {
   /* border: 2px solid var(--primary-color)
  !important; */
@@ -151,18 +159,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
-/* .about-cards .card-header {
-  background-color: var(--primary-color)
- !important;
-  color: white !important;
-}
-
-.about-cards div {
-  display: inline-block;
-  margin-right: 5%; */
-
-/* hero section */
 
 .welcome-heading {
   font-weight: 500;
@@ -192,22 +188,6 @@ body {
   margin-right: 2%;
   height: 15%;
 }
-
-/* latest project */
-/* 
-.latest-projects-container {
-}
-
-.latest-projects-cards-container {
-
-}
-
-.latest-projects-cards {
-  width: 28%;
-  height: 30vh;
-  margin-right: 7%;
-  /* text-align: center; */
-/* } */
 
 .latest-projects-cards a {
   display: block;
