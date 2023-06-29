@@ -6,6 +6,7 @@ setTimeout(function type(){
   i++
   setTimeout(type, speed)
 }, 300)
+
 type();
 
 window.HTMLElement.prototype.scrollIntoView = function() {};
