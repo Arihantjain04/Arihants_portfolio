@@ -48,6 +48,10 @@ body {
   overflow-x: hidden;
 }
 
+.website{
+  overflow-x: hidden;
+}
+
 /* hero section */
 
 .hero {
