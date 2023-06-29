@@ -1,11 +1,11 @@
 var i = 0
-var txt = "Driven by curiosity and a hunger for knowledge, I'm Passionate about turning ideas into reality through clean and efficient code and Constantly learning and evolving to stay ahead in the ever-changing tech landscape. "
+var txt = "                       Driven by curiosity and a hunger for knowledge, I'm Passionate about turning ideas into reality through clean and efficient code and Constantly learning and evolving to stay ahead in the ever-changing tech landscape. "
 var speed = 25
-function type(){
+setTimeout(function type(){
   document.getElementById("type").innerHTML += txt.charAt(i)
   i++
   setTimeout(type, speed)
-}
+}, 300)
 type();
 
 window.HTMLElement.prototype.scrollIntoView = function() {};

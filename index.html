@@ -14,10 +14,18 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
+  
   <body>
 
+
     <div class="container website">
+
+          <!--CSS Spinner-->
+    <div class="spinner-wrapper">
+      <div class="spinner"></div>
+    </div>
       
       <!-- HERO SECTION -->
 
@@ -593,5 +601,18 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+  
+    <script>
+      $(document).ready(function() {
+      //Preloader
+      let preloaderFadeOutTime = 2500;
+      function hidePreloader() {
+      var preloader = $('.spinner-wrapper');
+      preloader.fadeOut(preloaderFadeOutTime);
+      }
+      hidePreloader();
+      });
+      </script>
+      
   </body>
 </html>
